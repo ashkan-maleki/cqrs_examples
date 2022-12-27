@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MediatR.Lib\MediatR.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
