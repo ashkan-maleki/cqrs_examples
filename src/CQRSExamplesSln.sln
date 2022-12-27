@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimCorey", "TimCorey", "{24728E8B-11EF-4444-8C47-48E57B81FBB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MediatRDemo", "MediatRDemo", "{0AE01313-66C2-476D-92D0-9037E4EE43D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.BlazorUI", "TimCorey\MediatRDemo\MediatR.BlazorUI\MediatR.BlazorUI.csproj", "{72A18D09-27BC-495F-B8BB-5D9F9037DA6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatR.Lib", "TimCorey\MediatRDemo\MediatR.Lib\MediatR.Lib.csproj", "{58A020EF-EAB8-49B3-82E7-3FABBF2870CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72A18D09-27BC-495F-B8BB-5D9F9037DA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A18D09-27BC-495F-B8BB-5D9F9037DA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A18D09-27BC-495F-B8BB-5D9F9037DA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A18D09-27BC-495F-B8BB-5D9F9037DA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A020EF-EAB8-49B3-82E7-3FABBF2870CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A020EF-EAB8-49B3-82E7-3FABBF2870CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A020EF-EAB8-49B3-82E7-3FABBF2870CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A020EF-EAB8-49B3-82E7-3FABBF2870CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AE01313-66C2-476D-92D0-9037E4EE43D4} = {24728E8B-11EF-4444-8C47-48E57B81FBB9}
+		{72A18D09-27BC-495F-B8BB-5D9F9037DA6E} = {0AE01313-66C2-476D-92D0-9037E4EE43D4}
+		{58A020EF-EAB8-49B3-82E7-3FABBF2870CC} = {0AE01313-66C2-476D-92D0-9037E4EE43D4}
+	EndGlobalSection
+EndGlobal
