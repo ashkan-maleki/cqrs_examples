@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject MediatR.IMediator _mediator;
 
 <PageTitle>Index</PageTitle>
 
@@ -18,9 +19,9 @@ Welcome to your new app.
 {
     List<PersonModel> _people;
 
-    protected override Task OnInitializedAsync()
+    protected override async Task OnInitializedAsync()
     {
-        return base.OnInitializedAsync();
+        _people = await _mediator.Send(new GetPersonListQuery());
     }
 }
 
